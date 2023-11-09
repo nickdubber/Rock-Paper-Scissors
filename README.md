@@ -1,1 +1,1 @@
-Creating a rock papaer scissors game from scratch. 
+Creating a rock papaer scissors game from scratch. It will be basic but good. 
