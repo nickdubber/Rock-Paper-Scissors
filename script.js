@@ -6,7 +6,6 @@ function getComputerChoice(){
     return(outPut)
 }
 
-
 // Game logic
 function selectionOutput(){
     //DO NOT CHANGE
@@ -15,6 +14,7 @@ let compInput = getComputerChoice();
 let outPutChoiceFormatted = compInput.charAt(0).toUpperCase() + compInput.slice(1);
 //Shows computer score
 console.log("Computer: " + outPutChoiceFormatted)
+
 
 //CHANGE
 let playerSelection = "rOcK";
@@ -52,5 +52,8 @@ else if (compInput === "scissors" && playerSelectionLower ==="paper")
 else if (compInput === "scissors" && playerSelectionLower ==="scissors")
     console.log("You draw")
     }
-    
+
     selectionOutput();
+
+
+        
